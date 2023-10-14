@@ -1,0 +1,5 @@
+<div *ngFor="let quote of quotes">
+  <p>{{ quote.text }}</p>
+  <a href="{{ quote.link }}">{{ quote.link }}</a>
+</div>
+<div *ngIf="!quotes.length">No quotes found for this category.</div>

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'health-app';
+  selectedCategory: string = '';
+
+  onCategorySelected(category: string): void {
+    this.selectedCategory = category;
+  }
 }
