@@ -1,2 +1,31 @@
-<app-category (categorySelected)="onCategorySelected($event)"></app-category>
-<app-quotes [category]="selectedCategory"></app-quotes>
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="nav-container">
+      <!-- Home Button -->
+      <div class="nav-item">
+        <a routerLink="/home">Home</a>
+      </div>
+      <!-- Dropdown for 'What Impacts Emotional Health' -->
+      <div class="nav-item dropdown">
+        <a href="/emotional-impacts">What Impacts Emotional Health</a>
+        <div class="dropdown-content">
+          <a routerLink="/sleep">Sleep</a>
+          <a routerLink="/stress">Stress</a>
+          <a routerLink="/grief">Grief</a>
+        </div>
+      </div>
+      <!-- Dropdown for 'How to Improve Emotional Health' -->
+      <div class="nav-item dropdown">
+        <a href="/improve-emotional-health">How to Improve Emotional Health</a>
+        <div class="dropdown-content">
+          <a routerLink="/physical-habits">Physical Habits</a>
+          <a routerLink="/gratitude-mindfulness">Gratitude and Mindfulness</a>
+          <a routerLink="/meaningful-personal-time">Meaningful Personal Time</a>
+        </div>
+      </div>
+    </div>
+</nav>
+
+<!-- Main Content Section -->
+<router-outlet></router-outlet>
+

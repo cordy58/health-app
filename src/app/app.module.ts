@@ -3,14 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CategoryComponent } from './category/category.component';
-import { QuotesComponent } from './quotes/quotes.component';
+import { SleepComponent } from './sleep/sleep.component';
+import { HomeComponent } from './home/home.component';
+import { StressComponent } from './stress/stress.component';
+import { GriefComponent } from './grief/grief.component';
+import { PhysicalHabitsComponent } from './physical-habits/physical-habits.component';
+import { GratitudeMindfulnessComponent } from './gratitude-mindfulness/gratitude-mindfulness.component';
+import { MeaningfulPersonalTimeComponent } from './meaningful-personal-time/meaningful-personal-time.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CategoryComponent,
-    QuotesComponent
+    SleepComponent,
+    HomeComponent,
+    StressComponent,
+    GriefComponent,
+    PhysicalHabitsComponent,
+    GratitudeMindfulnessComponent,
+    MeaningfulPersonalTimeComponent,
   ],
   imports: [
     BrowserModule,
