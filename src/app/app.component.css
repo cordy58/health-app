@@ -1,4 +1,4 @@
-/* Navigation Bar Styles */
+/* Navigation Bar Styles
 .navbar {
     display: flex;
     justify-content: start;
@@ -19,12 +19,12 @@
     padding: 15px 10px;
     color: white;
     text-decoration: none;
-}
+} */
   
   /* Divider styles remain the same */
   
   /* Dropdown Styles */
-.dropdown {
+/* .dropdown {
     position: relative;
 }
   
@@ -55,7 +55,36 @@
 .nav-item a:hover, .dropdown:hover > a {
     background-color: #ddd;
     color: black;
-}
+} */
 
+
+/* Apply the primary color to the background */
+/* body {
+    background-color: #A3C4D3;
+    color: #FFF8E1; 
+  }
+   */
+  /* Style for the navigation bar */
+  /* .navbar {
+    background-color: #A3C4D3;
+  } */
+  
+  /* Text and other elements */
+  /* .nav-item a, .dropdown-content a {
+    color: #FFF8E1;
+  } */
+  
+  /* Hover state for interactive elements */
+  /* .nav-item a:hover, .dropdown-content a:hover {
+    background-color: #FFF8E1; 
+    color: #A3C4D3; 
+  }
+   */
+  /* Content Styles */
+  /* .content {
+    background-color: #A3C4D3;
+    color: #FFF8E1;
+  } */
+  
 
  
